@@ -1,9 +1,10 @@
-;;; xbbcode-mode.el --- Major mode for editing bbcode. -*- coding: utf-8 -*-
+;;; xbbcode-mode.el --- Major mode for editing bbcode. -*- coding: utf-8; lexical-binding: t; -*-
 
-;; Copyright © 2009 by Xah Lee
+;; Copyright © 2009, 2016 by Xah Lee
 
-;; Author: Xah Lee ( http://xahlee.org/ )
+;; Author: Xah Lee ( http://xahlee.info/ )
 ;; Created: 2009-12-09
+;; Package-Requires: ((emacs "24.1"))
 ;; Keywords: bbcode, php, lightweight markup
 
 ;; You can redistribute this program and/or modify it. Please give credit and link. Thanks.
@@ -56,6 +57,7 @@
 
 ;;; HISTORY
 
+;; version 2016-12-18 turned on lexical-binding
 ;; version 1.2, 2010-06-20 Added xbbcode-show-bbcode-help. Improved menu items.
 ;; version 1.1, 2009-12-14 The xbbcode-about now has clickable links, and other minor improvement.
 ;; version 1.0, 2009-12-09 First version.
